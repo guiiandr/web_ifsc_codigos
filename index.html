@@ -21,19 +21,28 @@
 
         }
 
+    
         table, td, th{
 
             
             border: 1px solid black;
-            border-collapse: collapse;
-            padding: 10px;
             
+            padding: 10px;
+            border-radius: 25px;
+            border: solid #black 1px;
             
 
 
         }
 
-       
+       #ALHO:hover{
+
+        
+        font-size: 30pt;
+        color: BLACK;
+        background-color: CORAL;
+
+       }
 
     </style>
 </head>
@@ -81,6 +90,7 @@
 
                 <tr>
 
+                    <td rowspan="5">Churrasco</td>
                     <th>Produto</th>
                     <th>Quantidade</th>
                     <th>Valor</th>
@@ -97,7 +107,7 @@
 
                 <tr>
 
-                    <td>Pão de alho</td>
+                    <td id="ALHO">Pão de alho</td>
                     <td>2 Pacotes</td>
                     <td>12,00</td>
 
@@ -110,8 +120,7 @@
                 </tr>
 
                 <tr>
-                    <td>Total</td>
-                    <td></td>
+                    <td colspan="2">Total</td> 
                     <td>48,00</td>
                 </tr>
 
